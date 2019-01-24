@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="contact.js"></script>
+    <script src="db.js"></script>
+    <script src="default_contacts.json"></script>
+    <script src="script.js"></script>
+</head>
+
+<body class="mt-5 mb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 ">
+                <div class="row justify-content-end">
+                    <div class="form-group col-12">
+                        <p class="form-text ">
+                            <h2>Add new contact</h2>
+                        </p>
+                    </div>
+                    <div class="form-group col-12 col-sm-12 col-xs-12 col-md-4 col-xl-4">
+                        <input type="text" name="add_name" id="add_name" class="form-control" placeholder="Name">
+                        <small id="helpId" class="text-muted">Add name</small>
+                    </div>
+                    <div class="form-group col-12 col-sm-12 col-xs-12 col-md-4 col-xl-4">
+                        <input type="text" name="add_surname" id="add_surname" class="form-control" placeholder="Surname">
+                        <small id="helpId" class="text-muted">Add surname</small>
+                    </div>
+                    <div class="form-group col-12 col-sm-12 col-xs-12 col-md-4 col-xl-4">
+                        <input type="number"  name="add_phone" id="add_phone" class="form-control" placeholder="Phone">
+                        <small id="helpId" class="text-muted">Add phone</small>
+                    </div>
+                    <div class="form-group col-12 d-flex justify-content-end">
+                        <button id="add_contact" type="submit" class="btn btn-primary w-100 curp">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="contact_container" class="col-xl-6 text-left">
+              
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
